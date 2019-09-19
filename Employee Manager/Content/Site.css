@@ -1,0 +1,62 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse {
+    background-image: url('../Images/sky-2100x1220.jpg');
+    overflow: hidden;
+    /*opacity: 0.6;*/
+}
+
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px black,-1px 1px black,1px -1px black,-1px -1px black;
+}
+body > div.navbar.navbar-inverse.navbar-fixed-top > div > div.navbar-collapse.collapse > ul > li > a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px white,-1px 1px white,1px -1px white,-1px -1px white;
+}
+.jumbotron2 {
+    background-image: url('../Images/EMSwords.png');
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.sectionHeader
+{
+    width: 100%;
+}
+.blurred-emps {
+    background-image: url('../Images/employees.jpg');
+    background-repeat: no-repeat;
+    height: 55px;
+    width: 110px;
+    box-shadow: 0 0 5px 5px white inset;
+    padding: 2px 2px 2px 2px;
+}
